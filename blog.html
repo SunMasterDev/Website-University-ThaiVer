@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/eduford_img/graduation.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                    <li><a href="course.html">สาขาวิชา</a></li>
+                    <li><a href="blog.html">บทความ</a></li>
+                    <li><a href="contect.html">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>ใบรับรองและสาขาวิชาออนไลน์ของปี 2024</h1>
+    </section>
+    <!-- blog page content-->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="/eduford_img/certificate.jpg" alt="">
+            <h2>ใบรับรอง &amp สาขาวิชาออนไลน์ของปี 2024</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cum qui ratione laborum voluptatem unde corrupti, at recusandae. Corporis amet accusantium natus dolore! Labore rem vero provident id quae corporis dolorem recusandae repudiandae illum quas. Veniam unde earum in possimus tempora excepturi fuga voluptatum non quibusdam, dolorem facere temporibus vel.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur voluptas totam quis sed nihil accusantium quaerat incidunt, saepe consequatur deserunt eum debitis dolor maiores odio reiciendis perferendis ab quibusdam culpa praesentium assumenda numquam. Excepturi debitis repudiandae nostrum ipsum nulla, eos magni. Nobis laudantium necessitatibus dolor, modi at repudiandae maiores voluptatibus accusamus, soluta labore id nisi ullam molestias libero impedit provident officiis excepturi? Magnam deserunt, accusantium quibusdam reprehenderit ex dolorum esse velit maiores, doloremque animi unde assumenda veritatis, ab quaerat mollitia temporibus blanditiis error ducimus iusto eum quae? Modi sit autem quam? Culpa numquam ea nesciunt quas nam laudantium labore illum?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio nostrum repellat dolores iusto similique temporibus hic adipisci laborum nobis consequatur, nulla assumenda modi ex vitae eligendi debitis, molestiae quia ipsa tenetur dolorum. Facilis, quo atque ex beatae nobis, eum quam laudantium hic consectetur est eius! Delectus quisquam libero autem?</p>
+
+            <div class="comment-box">
+                <h3>แสดงความคิดเห็น</h3>
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="ชื่อของคุณ">
+                    <input type="email" placeholder="อีเมลของคุณ">
+                    <textarea rows="5" placeholder="ความเห็นของคุณ"></textarea>
+                    <button type="submit" class="hero-btn red-btn">ส่งความคิดเห็น</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>หมวดหมู่คณะสาขาวิชา</h3>
+            <div>
+                <span>นักวิเคราะห์ธุรกิจ</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>วิทยาการข้อมูล</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>วิทยาศาสตร์คอมพิวเตอร์</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>วารสารศาสตร์</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>พาณิชยศาสตร์</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<section class="footer">
+    <h4>เกี่ยวกับเรา</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae nam asperiores maiores reiciendis praesentium dolor,<br/> ea dolorem! Nostrum sapiente laborum ipsa animi, voluptate tenetur nobis, vitae, totam quis unde voluptatum.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+</section>
+    
+
+<!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLink=document.getElementById("navLinks")
+
+        function showMenu(){
+            navLink.style.right="0"
+        }
+        function hideMenu(){
+            navLink.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
